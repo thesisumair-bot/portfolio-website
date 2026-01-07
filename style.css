@@ -265,6 +265,26 @@ section p {
   color: var(--heading-color);
 }
 
+/* Expertise section */
+.expertise-item {
+  margin-bottom: 2rem;
+}
+
+.expertise-item h3 {
+  font-size: 1.5rem;
+  color: var(--heading-color);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.expertise-item p {
+  font-size: 1rem;
+  margin: 0 auto 1rem auto;
+  max-width: 800px;
+  text-align: center;
+  color: var(--text-color);
+}
+
 /* Responsive navigation */
 @media (max-width: 768px) {
   .nav-menu {
